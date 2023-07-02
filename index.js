@@ -19,7 +19,6 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:jsdoc/recommended',
-    'plugin:jest/recommended',
     'plugin:react-hooks/recommended',
     'plugin:security/recommended',
   ],
