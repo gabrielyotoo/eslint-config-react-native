@@ -10,6 +10,12 @@
     "react-native"
   ],
   "author": "Gabriel Freitas Yamamoto",
+  "repository": {
+    "url": "https://github.com/gabrielyotoo/eslint-config-react-native"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielyotoo/eslint-config-react-native/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/parser": ">=5.60.1",
