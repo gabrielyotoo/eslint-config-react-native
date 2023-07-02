@@ -72,7 +72,7 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/member-ordering': 'error',
-    '@typescript-eslint/naming-convention': 'error',
+    '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-shadow': [
@@ -142,7 +142,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'jsdoc/check-alignment': 'error',
     'jsdoc/check-indentation': 'error',
-    'jsdoc/newline-after-description': 'error',
+    'jsdoc/tag-lines': 1,
     'linebreak-style': 'off',
     'max-classes-per-file': ['error', 1],
     'max-len': [

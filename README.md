@@ -2,6 +2,20 @@
 
 This is my configuration for ESLint when I develop React Native apps
 
+## Installation
+
+Run the following command to install the package
+
+```shell
+yarn add -D @gabrielyotoo/eslint-config-react-native
+```
+
+This package depends on some other plugins, so you must also install them
+
+```shell
+yarn add -D eslint-plugin-jsdoc eslint-plugin-security eslint-plugin-prefer-arrow
+```
+
 ## Used Plugins
 
 - @typescript-eslint/eslint-plugin
