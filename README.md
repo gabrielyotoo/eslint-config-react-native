@@ -13,7 +13,20 @@ yarn add -D @gabrielyotoo/eslint-config-react-native
 This package depends on some other plugins, so you must also install them
 
 ```shell
-yarn add -D eslint-plugin-jsdoc eslint-plugin-security eslint-plugin-prefer-arrow
+yarn add -D eslint-plugin-jsdoc eslint-plugin-security eslint-plugin-prefer-arrow eslint-plugin-import
+```
+
+## Usage
+
+Add the following to your ESLint configuration file
+
+```yaml
+extends:
+  ...
+  - "@gabrielyotoo/eslint-config-react-native"
+parserOptions:
+  ...
+  project: path/to/your/tsconfig.json
 ```
 
 ## Used Plugins
