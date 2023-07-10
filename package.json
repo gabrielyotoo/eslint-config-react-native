@@ -1,6 +1,6 @@
 {
   "name": "@gabrielyotoo/eslint-config-react-native",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Eslint configuration for @gabrielyotoo's React Native projects",
   "main": "index.js",
   "keywords": [
