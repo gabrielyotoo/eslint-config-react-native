@@ -13,7 +13,9 @@ yarn add -D @gabrielyotoo/eslint-config-react-native
 This package depends on some other plugins, so you must also install them
 
 ```shell
-npx install-peerdeps --dev @gabrielyotoo/eslint-config-react-native
+yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-config-prettier eslint-plugin-eslint-comments  \
+            eslint-plugin-import eslint-plugin-jest eslint-plugin-jsdoc eslint-plugin-jsx-a11y eslint-plugin-prefer-arrow \
+            eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native eslint-plugin-security @react-native-community/eslint-config
 ```
 
 ## Usage
